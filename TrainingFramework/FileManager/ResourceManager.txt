@@ -1,0 +1,56 @@
+#Models: 5
+ID 0
+FILE ../ResourcesPacket/Models/Croco.nfg
+ID 1
+FILE ../ResourcesPacket/Models/Woman2.nfg
+ID 2
+FILE ../ResourcesPacket/Models/witch.nfg
+ID 3
+FILE ../ResourcesPacket/Models/Marine.nfg
+ID 4
+FILE ../ResourcesPacket/Models/SkyBox.nfg
+
+#2D Textures: 4
+ID 0 
+FILE ../ResourcesPacket/Textures/Croco.tga
+TILING CLAMP
+ID 1 
+FILE ../ResourcesPacket/Textures/Woman2.tga
+TILING CLAMP
+ID 2 
+FILE ../ResourcesPacket/Textures/witch.tga
+TILING CLAMP
+ID 3 
+FILE ../ResourcesPacket/Textures/Marine.tga
+TILING CLAMP
+
+#Cube Textures: 1
+ID 0 
+FILE ../ResourcesPacket/SkyboxTextures/right.tga
+FILE ../ResourcesPacket/SkyboxTextures/left.tga 
+FILE ../ResourcesPacket/SkyboxTextures/top.tga
+FILE ../ResourcesPacket/SkyboxTextures/bottom.tga 
+FILE ../ResourcesPacket/SkyboxTextures/back.tga 
+FILE ../ResourcesPacket/SkyboxTextures/front.tga
+
+#Sharders: 5
+ID 0
+VS ../Resources/Shaders/TriangleShaderVS.vs
+FS ../Resources/Shaders/TriangleShaderFS.fs
+STATE DEPTH_TEST
+ID 1
+VS ../Resources/Shaders/TriangleShaderVS.vs
+FS ../Resources/Shaders/TriangleShaderFS.fs
+STATE DEPTH_TEST
+ID 2
+VS ../Resources/Shaders/TriangleShaderVS.vs
+FS ../Resources/Shaders/TriangleShaderFS.fs
+STATE DEPTH_TEST
+ID 3
+VS ../Resources/Shaders/TriangleShaderVS.vs
+FS ../Resources/Shaders/TriangleShaderFS.fs
+STATE DEPTH_TEST
+ID 4
+VS ../Resources/Shaders/CubeShaderVS.vs
+FS ../Resources/Shaders/CubeShaderFS.fs
+STATE DEPTH_TEST
